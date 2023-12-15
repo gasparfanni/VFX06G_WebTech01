@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Jelentkezés</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <nav>
+        
+        <a href="index.html">Kezdőlap</a>
+        <a href="oraink.html">Óráink</a>
+        <a href="araink.html">Áraink</a>
+        <a href="jelentkezes.html">Jelentkezés</a>
+    
+    </nav>
+
+<h1>Jelentkezés</h1>
+
+<form action="/submit" method="post" class="registration-form">
+    <div class="form-group">
+        <label for="name">Név:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">E-mail cím:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="phone">Telefonszám:</label>
+        <input type="tel" id="phone" name="phone" required>
+    </div>
+    <div class="form-group">
+        <label for="workout">Válassz edzést:</label>
+        <select id="workout" name="workout">
+            <option value="spinracing">Spinracing</option>
+            <option value="koredzes">Köredzés</option>
+            <option value="bodyart">Body Art</option>
+            <option value="gymstick">Gymstick</option>
+        </select>
+    </div>
+
+    <div>
+    <label>Jártál már nálunk?</label>
+                <div class="jartmar-radio">
+                    <label for="igen">Igen</label>
+                    <input type="radio" id="igen" name="option" value="igen" required>
+                    <label for="nem">Nem</label>
+                    <input type="radio" id="nem" name="option" value="nem" required>
+                </div>
+    </div>
+    <div>
+    <label for="comments">Megjegyzés:</label>
+                <textarea id="comments" name="comments" placeholder="Kérjük írja le bármilyen megjegyzése van" rows="6"></textarea>
+    </div>
+                <button type="submit">Jelentkezés</button>
+            </form>
+            <script src="formellenrozes.js"></script>
+</body>
+</html>
