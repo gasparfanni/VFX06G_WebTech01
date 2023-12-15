@@ -1,0 +1,308 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+
+header {
+    background-color: #333;
+    color:black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color:lightcoral;
+    overflow: hidden;
+}
+
+nav a {
+    float:left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav a:hover {
+    background-color: rgb(243, 155, 202);
+    color: white;
+}
+
+.home {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 0 9%;
+    background: url(képek/hatter.jpg);
+    height: 99vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-felirat {
+    font-size: 6rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:lightcoral;
+    margin-bottom: 1rem; 
+}
+
+.reklamszoveg {
+    color:black;
+    font-size: 2rem;
+    line-height: 1,5rem;
+    text-align: center; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.order-now-button {
+    background-color:peachpuff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5rem;
+    border-radius: 6px;
+    font-family: 'Brush Script MT', cursive;
+    margin-right: 48rem ;
+}
+
+.order-now-button:hover {
+    background-color:coral;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+
+.gallery-item p {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+.gallery-item:hover p {
+    display: block;
+    opacity: 1;
+    width: 300px;
+    text-align: center;
+    background-color:antiquewhite;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 280px;
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.video-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+
+.video-list li {
+    margin-bottom: 10px;
+}
+
+.video-list a {
+    text-decoration: none;
+    color: #111010;
+    display: block;
+    padding: 5px;
+    border: 1px solid lightcoral;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.video-list a:hover {
+    background-color:antiquewhite;
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 1.5em;
+}
+
+p {
+    color: #666;
+    font-size: 1.1em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.price-table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.price-table th,
+.price-table td {
+    border: 1px solid antiquewhite;
+    padding: 8px;
+    text-align: center;
+}
+
+.price-table th {
+    background-color:peachpuff;
+}
+
+.price-table td:first-child {
+    font-weight: bold;
+}
+
+.order-now-button {
+    background-color:peachpuff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 6px;
+    font-family: 'Brush Script MT', cursive;
+    margin-left: 44rem;
+}
+
+.order-now-button:hover {
+    background-color:coral;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.registration-form {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+textarea {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px; 
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color:lightcoral;
+    color: #080808cc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 0rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+input[type="radio"] {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+button, textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.error {
+    border: 1px solid red;
+}
+
+
+#comments {
+    height: 150px;
+}
+button:hover {
+    background-color:pink;
+}
+
